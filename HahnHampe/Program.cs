@@ -10,6 +10,7 @@ namespace HahnHampe
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
