@@ -10,7 +10,7 @@ namespace HahnHampe
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Kyrill");
         }
     }
 }
