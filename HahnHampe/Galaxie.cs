@@ -33,9 +33,6 @@ namespace HahnHampe
             base.UmlaufObjekte = umlaufObjekte;
         }
 
-        public Galaxie()
-        {
-            throw new System.NotImplementedException();
-        }
+        
     }
 }

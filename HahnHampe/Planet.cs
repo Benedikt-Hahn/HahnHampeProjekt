@@ -22,10 +22,7 @@ namespace HahnHampe
             base.UmlaufObjekte = umlaufObjekte;
         }
 
-        public Planet()
-        {
-            throw new System.NotImplementedException();
-        }
+       
 
         public bool Bewohnbar
         {

@@ -23,10 +23,7 @@ namespace HahnHampe
             
         }
 
-        public Stern()
-        {
-            throw new System.NotImplementedException();
-        }
+     
 
         public float Helligkeit
         {

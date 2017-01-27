@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HahnHampe
 {
-    class System : Objekt
+    class SSystem : Objekt
     {
         private List<Objekt> objekte;
 
@@ -22,7 +22,7 @@ namespace HahnHampe
                 objekte = value;
             }
         }
-        public System(List<Objekt> objekte, int[] position, float durchmesser, float masse, int alter, Objekt[] umlaufObjekte) : base(position, durchmesser, masse, alter, umlaufObjekte)
+        public SSystem(List<Objekt> objekte, int[] position, float durchmesser, float masse, int alter, Objekt[] umlaufObjekte) : base(position, durchmesser, masse, alter, umlaufObjekte)
         {
             Objekte = objekte;
             base.Position = position;
