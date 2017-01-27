@@ -11,11 +11,12 @@ namespace HahnHampe
     {
         static void Main(string[] args)
         {
-            Abfrage1();
-            Abfrage2();
-            Abfrage3();
-            Abfrage4();
-            Abfrage5();
+            //Abfrage1();
+            //Abfrage2();
+            //Abfrage3();
+            //Abfrage4();
+            //Abfrage5();
+            Aufgabe();
         }
 
 
@@ -26,12 +27,12 @@ namespace HahnHampe
             Console.WriteLine("------------ 1 ----------");
             var erg = from a in xmlFile.Descendants("Planet")
                       where a.Elements("Mond").Count() > 4
-                      select a.Element("Name");
+                      select a.Element("Name").Value;
 
             Console.WriteLine("Welcher Planet hat die meisten Monde?");
             foreach (var item in erg)
             {
-                Console.WriteLine(item);
+                Console.WriteLine("Name: "+item);
             }
         }
         public static void Abfrage2()
